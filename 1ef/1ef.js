@@ -12,15 +12,16 @@ for (let i = 0; i < 3; i = i + 1){
 
       if( usuarioSis == usuario && passwordSis == password ) {
           console.log ("Bienvenido al sistema");
+          alert("¡Bienvenido!");
           break;
       }
 
-      else( console.log ("Error")
-           )
+      else( 
+
+          alert ( "Nombre de usuario o contraseña incorrecto ")
+           );
 
 }
-
-alert("¡Bienvenido!")
 
 
 //Stock de consolas
