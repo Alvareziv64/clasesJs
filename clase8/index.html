@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="clase8.css">
+</head>
+<body>
+    <h1>Consolas en stock</h1>
+    <div class="div">
+        <div class="div-img">
+            <img class="img-resp" src="imagenes/nintendo64.jpg" alt="">
+            <p>Nintendo 64</p>
+        </div>
+        <div class="div-img">
+            <img class="img-resp" src="imagenes/segaGenesis.jpg" alt="">
+            <p>Sega Genesis</p>
+        </div>
+        <div class="div-img">
+            <img class="img-resp" src="imagenes/gameboyColor.jpg" alt="">
+            <p>Game Boy Color</p>
+        </div>
+        <div class="div-img">
+            <img class="img-resp" src="imagenes/xboxClassic.jpg" alt="">
+            <p>Xbox Classic</p>
+        </div>
+    </div>
+
+    <div class="div2">
+        <h2>Consola que desea comprar</h2>
+        <input type="text" id="elemento">
+        <button onclick="listaCompras()">Agregar al pedido</button>
+        <button onclick="borrarElemento()">Borrar</button>
+        <ul id="lista"></ul>
+    </div>
+
+
+
+
+
+
+    <script src="clase8.js"></script>
+</body>
+</html>
