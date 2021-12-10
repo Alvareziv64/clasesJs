@@ -1,0 +1,30 @@
+.banner1 {
+    height: 90px;
+    width: auto;
+    background-color: black;
+    color: white;
+    font-size: 28pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divProductos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    list-style: none;
+    text-align: center;
+
+}
+
+ul {
+    list-style: none;
+}
