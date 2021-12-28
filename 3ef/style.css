@@ -1,0 +1,47 @@
+.banner1 {
+    height: 90px;
+    width: auto;
+    background-color: black;
+    color: white;
+    font-size: 28pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divProductos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    list-style: none;
+    text-align: center;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.clima {
+    display: flex;
+    height: 40px;
+    width: auto;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.info-clima {
+    padding-left: 30px;
+    padding-top: 4px;
+    display: flex;
+
+}
