@@ -1,31 +1,62 @@
+//ARRAY CONSOLAS
+let consolas = [ 
 
+    n64 = { marca : "Nintendo",
+            modelo : "64",
+            valor : 7500
+          },
+    
+    sg = { marca : "Sega",
+           modelo : "Genesis",
+           valor : 9500
+         },
+
+    gbc = { marca : "Nintendo",
+            modelo : "Game Boy Color",
+            valor : "8500"
+          },
+
+    xbc = { marca : "Microsoft",
+            modelo : "Xbox Classic",
+            valor : 12000
+          }
+
+]
+
+
+//AGREGAR A LA LISTA
 $("#n64").on ("click" , ()=> {
-    $("ul").append(`<li>Nintendo 64</li>`)
+    $("ul").append(`<li>${n64.marca + " " + n64.modelo + ": $" + n64.valor }</li>`)
 });
 
 
 $("#sg").on ("click" , ()=> {
-    $("ul").append(`<li>Sega Genesis</li>`)
+    $("ul").append(`<li>${sg.marca + " " + sg.modelo + ": $"+ sg.valor}</li>`)
 });
 
 
 $("#gbc").on ("click" , ()=> {
-    $("ul").append(`<li>Game Boy Color</li>`)
+    $("ul").append(`<li>${gbc.marca + " " + gbc.modelo + ": $" + gbc.valor}</li>`)
    
 });
 
 
 $("#xbc").on ("click" , ()=> {
-    $("ul").append(`<li>Microsoft Xbox Classic</li>`)
+    $("ul").append(`<li>${xbc.marca + " " + xbc.modelo + ": $" + xbc.valor}</li>`)
 });
 
+
+//BORRAR TODO
 $("#borrarTodo").on ("click" , ()=> {
     $("li").remove()
 });
 
+
+// BORRAR
 $("#borrar").on ("click" , ()=> {
     $("li:last").remove()
 });
+
 
 //api clima 
 
@@ -42,15 +73,8 @@ $.get ( api , (datos)=> {
                          </div>
                          
                          <div>
-                           <p class="info-clima"> Temp Actual: ${datos.main.temp}°</p>
-                         
-                         
-                      
+                           <p class="info-clima"> Temp. Actual: ${datos.main.temp}°</p>            
                          </div>
-                         
-                         
-                    
-                     
                      `;
     $(".clima").append(contenido);
 
