@@ -26,35 +26,37 @@ let consolas = [
 
 //AGREGAR A LA LISTA
 $("#n64").on ("click" , ()=> {
-    $("ul").append(`<li>${n64.marca + " " + n64.modelo + ": $" + n64.valor }</li>`)
+    $("ul").append(`<li class="liCarrito">${n64.marca + " " + n64.modelo + ": $" + n64.valor }</li>`)
+    
 });
 
 
 $("#sg").on ("click" , ()=> {
-    $("ul").append(`<li>${sg.marca + " " + sg.modelo + ": $"+ sg.valor}</li>`)
+    $("ul").append(`<li class="liCarrito">${sg.marca + " " + sg.modelo + ": $"+ sg.valor}</li>`)
 });
 
 
 $("#gbc").on ("click" , ()=> {
-    $("ul").append(`<li>${gbc.marca + " " + gbc.modelo + ": $" + gbc.valor}</li>`)
+    $("ul").append(`<li class="liCarrito">${gbc.marca + " " + gbc.modelo + ": $" + gbc.valor}</li>`)
    
 });
 
 
 $("#xbc").on ("click" , ()=> {
-    $("ul").append(`<li>${xbc.marca + " " + xbc.modelo + ": $" + xbc.valor}</li>`)
+    $("ul").append(`<li class="liCarrito">${xbc.marca + " " + xbc.modelo + ": $" + xbc.valor}</li>`)
 });
+
 
 
 //BORRAR TODO
 $("#borrarTodo").on ("click" , ()=> {
-    $("li").remove()
+    $(".liCarrito").remove()
 });
 
 
 // BORRAR
 $("#borrar").on ("click" , ()=> {
-    $("li:last").remove()
+    $(".liCarrito:last").remove()
 });
 
 
@@ -65,7 +67,7 @@ let api = "https://api.openweathermap.org/data/2.5/weather?q=Buenos+aires&units=
 
 $.get ( api , (datos)=> {
 
-    console.log(datos)
+    //console.log(datos)
     
     let contenido = `
                          <div>
@@ -79,3 +81,4 @@ $.get ( api , (datos)=> {
     $(".clima").append(contenido);
 
 })
+

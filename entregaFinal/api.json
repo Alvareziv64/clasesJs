@@ -1,0 +1,112 @@
+
+[
+
+        {  
+            "id" : 1,
+            "marca" : "Nintendo",
+            "modelo" : "64",
+            "valor" : 7500,
+            "categoria" : "consola",
+            "anio" : "1996",
+            "graficos" : "64 bits",
+            "origen" : "Japón",
+            "gen" : "5ta",
+            "uvend" : "32.930.000"
+        },
+
+        { 
+            "id" : 2,
+            "marca" : "Sega",
+            "modelo" : "Genesis",
+            "valor" : 9500,
+            "categoria" : "consola",
+            "anio" : "1988",
+            "graficos" : "16 bits",
+            "origen" : "Japón/Usa",
+            "gen" : "4ta",
+            "uvend" : "30.750.000"
+        },
+
+        {  
+            "id" : 3,
+            "marca" : "Nintendo",
+            "modelo" : "Game Boy Color",
+            "valor" : 8500,
+            "categoria" : "consola",
+            "anio" : "1998",
+            "graficos" : "8 bits",
+            "origen" : "Japón",
+            "gen" : "4ta",
+            "uvend" : "118.710.000"
+        },
+
+        {  
+            "id" : 4,
+            "marca" : "Microsoft",
+            "modelo" : "Xbox Classic",
+            "valor" : 12000,
+            "categoria" : "consola",
+            "anio" : "2001",
+            "graficos" : "128 bits",
+            "origen" : "Usa",
+            "gen" : "6ta",
+            "uvend" : "24.650.000"
+        },
+
+        
+        {  
+            "id" : 5,
+            "marca" : "Sony",
+            "modelo" : "Playstation",
+            "valor" : 6500,
+            "categoria" : "consola",
+            "anio" : "1994",
+            "graficos" : "32 bits",
+            "origen" : "Japón",
+            "gen" : "5ta",
+            "uvend" : "102.400.000"
+        },
+
+        {  
+            "id" : 6,
+            "marca" : "Sega",
+            "modelo" : "Dreamcast",
+            "valor" : 18000,
+            "categoria" : "consola",
+            "anio" : "1998",
+            "graficos" : "128 bits",
+            "origen" : "Japón/Usa",
+            "gen" : "6ta",
+            "uvend" : "10.600.000"
+        },
+
+        { 
+            "id" : 7,
+            "marca" : "Atari",
+            "modelo" : "2600 heavy sixer",
+            "valor" : 8000,
+            "categoria" : "consola",
+            "anio" : "1977",
+            "graficos" : "8 bits",
+            "origen" : "Usa",
+            "gen" : "2da",
+            "uvend" : "30.000.000"
+
+        },
+
+        { 
+            "id" : 8,
+            "marca" : "Nintendo",
+            "modelo" : "Game Boy Advance",
+            "valor" : 11000,
+            "categoria" : "Consola",
+            "anio" : "2001",
+            "graficos" : "32 bits",
+            "origen" : "Japón",
+            "gen" : "5ta",
+            "uvend" : "81.510.000"
+        }
+
+
+
+]
